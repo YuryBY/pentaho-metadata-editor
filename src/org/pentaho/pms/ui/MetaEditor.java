@@ -4103,4 +4103,8 @@ public class MetaEditor implements SelectionListener {
     }
   }
 
+  // added for testing with swtBot
+  public Shell getShell() {
+    return shell;
+  }
 }
